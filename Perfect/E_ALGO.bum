@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.emf.persistence.emf_id="_bibz4cBPEe6nO75w6eJVMw" org.eventb.texttools.text_lastmodified="1706715787807" org.eventb.texttools.text_representation="machine E_ALGO refines D_PREALGO sees A_C&#10;&#10;events&#10;  event INITIALISATION&#10;  end&#10;end&#10;" version="5">
+    <org.eventb.core.refinesMachine name="_bigsYMBPEe6nO75w6eJVMw" org.eventb.core.target="D_PREALGO"/>
+    <org.eventb.core.seesContext name="_bigsYcBPEe6nO75w6eJVMw" org.eventb.core.target="A_C"/>
+    <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION" org.eventb.emf.persistence.emf_id="_bibz4MBPEe6nO75w6eJVMw"/>
+</org.eventb.core.machineFile>

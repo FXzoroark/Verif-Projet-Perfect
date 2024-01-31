@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scRefinesMachine name="'" org.eventb.core.scTarget="/Perfect/E_ALGO.bcm" org.eventb.core.source="/Perfect/F_ALGOPC.bum|org.eventb.core.machineFile#F_ALGOPC|org.eventb.core.refinesMachine#_cgYC0MBPEe6nO75w6eJVMw"/>
+    <org.eventb.core.scSeesContext name="(" org.eventb.core.scTarget="/Perfect/A_C.bcc" org.eventb.core.source="/Perfect/F_ALGOPC.bum|org.eventb.core.machineFile#F_ALGOPC|org.eventb.core.seesContext#_cgYp4MBPEe6nO75w6eJVMw"/>
+    <org.eventb.core.scInternalContext name="A_C"/>
+    <org.eventb.core.scEvent name="A_D" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/Perfect/F_ALGOPC.bum|org.eventb.core.machineFile#F_ALGOPC|org.eventb.core.event#'">
+        <org.eventb.core.scRefinesEvent name="'" org.eventb.core.scTarget="/Perfect/E_ALGO.bcm|org.eventb.core.scMachineFile#E_ALGO|org.eventb.core.scEvent#A_D" org.eventb.core.source="/Perfect/F_ALGOPC.bum|org.eventb.core.machineFile#F_ALGOPC|org.eventb.core.event#'"/>
+    </org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>
