@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scMachineFile org.eventb.core.accurate="false" org.eventb.core.configuration="org.eventb.core.fwd">
     <org.eventb.core.scRefinesMachine name="'" org.eventb.core.scTarget="/Perfect/D_PREALGO.bcm" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.refinesMachine#_bigsYMBPEe6nO75w6eJVMw"/>
     <org.eventb.core.scSeesContext name="(" org.eventb.core.scTarget="/Perfect/A_C.bcc" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.seesContext#_bigsYcBPEe6nO75w6eJVMw"/>
-    <org.eventb.core.scInternalContext name="A_C"/>
+    <org.eventb.core.scInternalContext name="A_C">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_XSJtANahEe6QwZsER6nVcA" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="n≠0" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_XxwsENafEe6QwZsER6nVcA" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="finite(DIVISEURS)" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_avWzsNahEe6QwZsER6nVcA" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="p∈0 ‥ n → ℕ" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_d75IgNaeEe6RMfw9ulhuyQ" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scConstant name="n" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.constant#_x-X40NZxEe6RMfw9ulhuyQ" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scConstant name="p" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.constant#_RUni8NZyEe6RMfw9ulhuyQ" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.scCarrierSet name="DIVISEURS" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.carrierSet#_JE40gNaKEe6RMfw9ulhuyQ" org.eventb.core.type="ℙ(DIVISEURS)"/>
+    </org.eventb.core.scInternalContext>
     <org.eventb.core.scEvent name="A_D" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.event#'">
         <org.eventb.core.scRefinesEvent name="'" org.eventb.core.scTarget="/Perfect/D_PREALGO.bcm|org.eventb.core.scMachineFile#D_PREALGO|org.eventb.core.scEvent#A_D" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.event#'"/>
     </org.eventb.core.scEvent>

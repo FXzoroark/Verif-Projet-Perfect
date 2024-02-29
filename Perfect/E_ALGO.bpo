@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="0">
-    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0"/>
-    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0"/>
-    <org.eventb.core.poPredicateSet name="EVTALLHYP'" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0"/>
-    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poFile org.eventb.core.poStamp="13">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="13">
+        <org.eventb.core.poIdentifier name="DIVISEURS" org.eventb.core.type="ℙ(DIVISEURS)"/>
+        <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="p" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poPredicate name="DIVISEURT" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_XSJtANahEe6QwZsER6nVcA"/>
+        <org.eventb.core.poPredicate name="DIVISEURU" org.eventb.core.predicate="n≠0" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_XxwsENafEe6QwZsER6nVcA"/>
+        <org.eventb.core.poPredicate name="DIVISEURV" org.eventb.core.predicate="finite(DIVISEURS)" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_avWzsNahEe6QwZsER6nVcA"/>
+        <org.eventb.core.poPredicate name="DIVISEURW" org.eventb.core.predicate="p∈0 ‥ n → ℕ" org.eventb.core.source="/Perfect/A_C.buc|org.eventb.core.contextFile#A_C|org.eventb.core.axiom#_d75IgNaeEe6RMfw9ulhuyQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="13"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPA_D" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="13"/>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="13"/>
 </org.eventb.core.poFile>
