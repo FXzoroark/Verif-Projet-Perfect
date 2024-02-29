@@ -9,4 +9,6 @@ frama-c:
 > frama-c perfect.c -save parse.sav
 > frama-c -load parse.sav -eva -save eva.save
 > cat eva.save
+ou
+> frama-c-gui -load eva.save
 ```
