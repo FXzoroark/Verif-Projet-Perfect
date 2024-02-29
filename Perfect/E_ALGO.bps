@@ -7,4 +7,5 @@
     <org.eventb.core.psStatus name="INITIALISATION/act5/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="step1111/act4/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="step1111/act5/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step2222/act3/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="false"/>
 </org.eventb.core.psFile>

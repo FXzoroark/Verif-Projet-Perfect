@@ -11,12 +11,12 @@
     <org.eventb.core.psStatus name="computing000/grd2/GRD" org.eventb.core.confidence="0" org.eventb.core.poStamp="30" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="step111/grd2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="step111/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="step111/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step111/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="32" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="step111/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="step111/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step111/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="32" org.eventb.core.psBroken="true" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="step111/grd1/GRD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="step222/grd2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="step222/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="step222/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="step222/grd1/GRD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step222/grd2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step222/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step222/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step222/grd1/GRD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
 </org.eventb.core.psFile>

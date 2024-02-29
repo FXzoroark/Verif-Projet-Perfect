@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="40">
+<org.eventb.core.poFile org.eventb.core.poStamp="43">
     <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="40">
         <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
         <org.eventb.core.poIdentifier name="p" org.eventb.core.type="ℙ(ℤ×ℙ(ℤ))"/>
@@ -130,47 +130,47 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step1\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_G|org.eventb.core.poPredicate#PRD0"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step1/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step1/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="41">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="uu{i+1 ↦ uu(i)+i}∈0 ‥ n ⇸ ℕ∧dom(uu{i+1 ↦ uu(i)+i})=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_AwWTYdb2Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="uu{i ↦ uu(i − 1)+i}∈0 ‥ n ⇸ ℕ∧dom(uu{i ↦ uu(i − 1)+i})=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_AwWTYdb2Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_AwWTYdb2Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step1\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_G|org.eventb.core.poPredicate#PRD1"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step1/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step1/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="41">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀k⦂ℤ·k∈dom(uu{i+1 ↦ uu(i)+i})⇒(uu{i+1 ↦ uu(i)+i})(k)=u(k)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_F_LIsNb2Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀k⦂ℤ·k∈dom(uu{i ↦ uu(i − 1)+i})⇒(uu{i ↦ uu(i − 1)+i})(k)=u(k)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_F_LIsNb2Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_F_LIsNb2Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step1\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_I|org.eventb.core.poPredicate#PRD2"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step1/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step1/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="41">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="pp{i+1 ↦ pp(i)∪{i}}∈0 ‥ n ⇸ {ℕ}∧dom(pp{i+1 ↦ pp(i)∪{i}})=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YAWUNb4Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="pp{i ↦ pp(i − 1)∪{i}}∈0 ‥ n ⇸ {ℕ}∧dom(pp{i ↦ pp(i − 1)∪{i}})=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YAWUNb4Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YAWUNb4Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step1\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_I|org.eventb.core.poPredicate#PRD3"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step1/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step1/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="41">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀k⦂ℤ·k∈dom(pp{i+1 ↦ pp(i)∪{i}})⇒(pp{i+1 ↦ pp(i)∪{i}})(k)=p(k)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YA9YNb4Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀k⦂ℤ·k∈dom(pp{i ↦ pp(i − 1)∪{i}})⇒(pp{i ↦ pp(i − 1)∪{i}})(k)=p(k)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YA9YNb4Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YA9YNb4Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step1\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step1/act2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step1/act2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="41">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i∈dom(pp)∧pp∈ℤ ⇸ ℙ(ℤ)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w|org.eventb.core.action#_RF-hMdb6Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i − 1∈dom(pp)∧pp∈ℤ ⇸ ℙ(ℤ)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w|org.eventb.core.action#_RF-hMdb6Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w|org.eventb.core.action#_RF-hMdb6Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step1/act3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step1/act3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="41">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i∈dom(uu)∧uu∈ℤ ⇸ ℤ" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w|org.eventb.core.action#_PkcAgNb7Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i − 1∈dom(uu)∧uu∈ℤ ⇸ ℤ" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w|org.eventb.core.action#_PkcAgNb7Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w|org.eventb.core.action#_PkcAgNb7Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_M"/>
     </org.eventb.core.poSequent>
@@ -185,13 +185,13 @@
     <org.eventb.core.poPredicateSet name="EVTALLHYPA_M" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTHYPA_M'" org.eventb.core.poStamp="40">
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n mod i=0" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_68dIgNb9Ee6A_uB6VBEJ3w|org.eventb.core.guard#_68dIgdb9Ee6A_uB6VBEJ3w"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="step2/grd2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step2/grd2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="43">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTHYPA_N'"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0≤n∧0&lt;i" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.guard#_J4gRENb-Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.guard#_J4gRENb-Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTHYPA_N'"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step2/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step2/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="43">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i+1∈1 ‥ n" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_AwWTYNb2Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w"/>
@@ -199,29 +199,59 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step2\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_G|org.eventb.core.poPredicate#PRD0"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step2/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step2/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="43">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="uu∈0 ‥ n ⇸ ℕ∧dom(uu)=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_AwWTYdb2Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="uu{1 ↦ uu(i − 1)}∈0 ‥ n ⇸ ℕ∧dom(uu{1 ↦ uu(i − 1)})=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_AwWTYdb2Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_AwWTYdb2Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step2\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_G|org.eventb.core.poPredicate#PRD1"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="step2/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step2/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="43">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="pp∈0 ‥ n ⇸ {ℕ}∧dom(pp)=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YAWUNb4Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀k⦂ℤ·k∈dom(uu{1 ↦ uu(i − 1)})⇒(uu{1 ↦ uu(i − 1)})(k)=u(k)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_F_LIsNb2Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_F_LIsNb2Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step2\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_I|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="step2/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="43">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="pp{i ↦ pp(i − 1)}∈0 ‥ n ⇸ {ℕ}∧dom(pp{i ↦ pp(i − 1)})=0 ‥ i+1" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YAWUNb4Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YAWUNb4Ee6A_uB6VBEJ3w"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step2\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#HYPA_I|org.eventb.core.poPredicate#PRD3"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTA_N" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="40">
+    <org.eventb.core.poSequent name="step2/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="43">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀k⦂ℤ·k∈dom(pp{i ↦ pp(i − 1)})⇒(pp{i ↦ pp(i − 1)})(k)=p(k)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YA9YNb4Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.invariant#_0YA9YNb4Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poSequent#step2\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="step2/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="43">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i − 1∈dom(pp)∧pp∈ℤ ⇸ ℙ(ℤ)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.action#_J4fqAdb-Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.action#_J4fqAdb-Ee6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="step2/act2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="43">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i − 1∈dom(uu)∧uu∈ℤ ⇸ ℤ" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.action#_X6RYUNciEe6GYrHnFRrxSA"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.action#_X6RYUNciEe6GYrHnFRrxSA"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTALLHYPA_N"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTA_N" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="pp'" org.eventb.core.type="ℙ(ℤ×ℙ(ℤ))"/>
+        <org.eventb.core.poIdentifier name="uu'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.poIdentifier name="i'" org.eventb.core.type="ℤ"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTHYPA_N'" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTIDENTA_N" org.eventb.core.poStamp="40">
+    <org.eventb.core.poPredicateSet name="EVTHYPA_N'" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTIDENTA_N" org.eventb.core.poStamp="43">
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="n∉dom(uu)∧n∉dom(pp)" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.guard#_J4fqAtb-Ee6A_uB6VBEJ3w"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPA_N" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTHYPA_N'" org.eventb.core.poStamp="40">
+    <org.eventb.core.poPredicateSet name="EVTALLHYPA_N" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#EVTHYPA_N'" org.eventb.core.poStamp="43">
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n mod i≠0" org.eventb.core.source="/Perfect/C_COMPUTING.bum|org.eventb.core.machineFile#C_COMPUTING|org.eventb.core.event#_J4fqANb-Ee6A_uB6VBEJ3w|org.eventb.core.guard#_J4gRENb-Ee6A_uB6VBEJ3w"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="HYPA_G" org.eventb.core.parentSet="/Perfect/C_COMPUTING.bpo|org.eventb.core.poFile#C_COMPUTING|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="40">

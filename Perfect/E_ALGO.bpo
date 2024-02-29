@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="26">
+<org.eventb.core.poFile org.eventb.core.poStamp="27">
     <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="26">
         <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
         <org.eventb.core.poIdentifier name="p" org.eventb.core.type="ℙ(ℤ×ℙ(ℤ))"/>
@@ -110,10 +110,20 @@
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="i&lt;n" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.event#_aayMFNcIEe6A_uB6VBEJ3w|org.eventb.core.guard#_aayzI9cIEe6A_uB6VBEJ3w"/>
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n mod i=0" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.event#_aayMFNcIEe6A_uB6VBEJ3w|org.eventb.core.guard#_aayzJNcIEe6A_uB6VBEJ3w"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTIDENTA_T" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="26">
+    <org.eventb.core.poSequent name="step2222/act3/SIM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="27">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#EVTALLHYPA_T"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="i+1=i+1" org.eventb.core.source="/Perfect/D_PREALGO.bum|org.eventb.core.machineFile#D_PREALGO|org.eventb.core.event#_Q06TctcHEe6A_uB6VBEJ3w|org.eventb.core.action#_ctyxsdciEe6GYrHnFRrxSA"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Perfect/D_PREALGO.bum|org.eventb.core.machineFile#D_PREALGO|org.eventb.core.event#_Q06TctcHEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Perfect/D_PREALGO.bum|org.eventb.core.machineFile#D_PREALGO|org.eventb.core.event#_Q06TctcHEe6A_uB6VBEJ3w|org.eventb.core.action#_ctyxsdciEe6GYrHnFRrxSA"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.event#_aayzJdcIEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poSequent#step2222\/act3\/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTA_T" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="27">
+        <org.eventb.core.poIdentifier name="pp'" org.eventb.core.type="ℙ(ℤ×ℙ(ℤ))"/>
+        <org.eventb.core.poIdentifier name="uu'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.poIdentifier name="i'" org.eventb.core.type="ℤ"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPA_T" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#EVTIDENTA_T" org.eventb.core.poStamp="26">
+    <org.eventb.core.poPredicateSet name="EVTALLHYPA_T" org.eventb.core.parentSet="/Perfect/E_ALGO.bpo|org.eventb.core.poFile#E_ALGO|org.eventb.core.poPredicateSet#EVTIDENTA_T" org.eventb.core.poStamp="27">
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="i&lt;n" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.event#_aayzJdcIEe6A_uB6VBEJ3w|org.eventb.core.guard#_aazaMtcIEe6A_uB6VBEJ3w"/>
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n mod i≠0" org.eventb.core.source="/Perfect/E_ALGO.bum|org.eventb.core.machineFile#E_ALGO|org.eventb.core.event#_aayzJdcIEe6A_uB6VBEJ3w|org.eventb.core.guard#_aazaM9cIEe6A_uB6VBEJ3w"/>
     </org.eventb.core.poPredicateSet>
