@@ -1,2 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eventb.core.psFile/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+    <org.eventb.core.psStatus name="inv1/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="inv1/THM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="inv2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="inv2/THM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="INITIALISATION/act5/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step1111/act4/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="step1111/act5/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

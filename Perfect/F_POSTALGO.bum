@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.emf.persistence.emf_id="_NmNQ99cJEe6A_uB6VBEJ3w" org.eventb.texttools.text_lastmodified="1709214506224" org.eventb.texttools.text_representation="machine F_POSTALGO refines E_ALGO  sees A_C&#10;&#10;variables ok i cu&#10;&#10;events&#10;  event INITIALISATION&#10;    then&#10;      @act1 ok ≔ FALSE&#10;      @act2 i ≔  1&#10;      @act3 cu ≔ 0&#10;  end&#10;&#10;  event computing00000 refines computing0000&#10;    where&#10;      @grd1 i = n&#10;      @grd2 cu = n&#10;    then&#10;      @act1 ok ≔ TRUE&#10;   end&#10;&#10;  event step11111 refines step1111&#10;    where&#10;      @grd1 i&lt;n&#10;      @grd2 n mod i = 0&#10;    then&#10;      @act2 cu ≔ cu + i&#10;      @act3 i ≔ i + 1&#10;  end&#10;&#10;  event step22222 refines step2222&#10;    where&#10;      @grd1 i&lt;n&#10;      @grd2 n mod i ≠ 0&#10;    then&#10;      @act1 i ≔ i + 1&#10;  end&#10;end&#10;" version="5">
+    <org.eventb.core.refinesMachine name="_cgYC0MBPEe6nO75w6eJVMw" org.eventb.core.target="E_ALGO"/>
+    <org.eventb.core.seesContext name="_cgYp4MBPEe6nO75w6eJVMw" org.eventb.core.target="A_C"/>
+    <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION" org.eventb.emf.persistence.emf_id="_NmNQ5tcJEe6A_uB6VBEJ3w">
+        <org.eventb.core.action name="_NmVzwNcJEe6A_uB6VBEJ3w" org.eventb.core.assignment="ok ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act1" org.eventb.emf.persistence.emf_id="_NmNQ49cJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.action name="_NmVzwdcJEe6A_uB6VBEJ3w" org.eventb.core.assignment="i ≔  1" org.eventb.core.generated="false" org.eventb.core.label="act2" org.eventb.emf.persistence.emf_id="_NmNQ5NcJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.action name="_NmVzwtcJEe6A_uB6VBEJ3w" org.eventb.core.assignment="cu ≔ 0" org.eventb.core.generated="false" org.eventb.core.label="act3" org.eventb.emf.persistence.emf_id="_NmNQ5dcJEe6A_uB6VBEJ3w"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_NmVzw9cJEe6A_uB6VBEJ3w" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="computing00000" org.eventb.emf.persistence.emf_id="_NmNQ6tcJEe6A_uB6VBEJ3w">
+        <org.eventb.core.refinesEvent name="_NmVzxNcJEe6A_uB6VBEJ3w" org.eventb.core.target="computing0000"/>
+        <org.eventb.core.action name="_NmVzxdcJEe6A_uB6VBEJ3w" org.eventb.core.assignment="ok ≔ TRUE" org.eventb.core.generated="false" org.eventb.core.label="act1" org.eventb.emf.persistence.emf_id="_NmNQ6dcJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.guard name="_NmWa0NcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="i = n" org.eventb.emf.persistence.emf_id="_NmNQ59cJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.guard name="_NmWa0dcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="cu = n" org.eventb.emf.persistence.emf_id="_NmNQ6NcJEe6A_uB6VBEJ3w"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_NmWa0tcJEe6A_uB6VBEJ3w" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="step11111" org.eventb.emf.persistence.emf_id="_NmNQ8NcJEe6A_uB6VBEJ3w">
+        <org.eventb.core.refinesEvent name="_NmWa09cJEe6A_uB6VBEJ3w" org.eventb.core.target="step1111"/>
+        <org.eventb.core.action name="_NmWa1NcJEe6A_uB6VBEJ3w" org.eventb.core.assignment="cu ≔ cu + i" org.eventb.core.generated="false" org.eventb.core.label="act2" org.eventb.emf.persistence.emf_id="_NmNQ7tcJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.action name="_NmWa1dcJEe6A_uB6VBEJ3w" org.eventb.core.assignment="i ≔ i + 1" org.eventb.core.generated="false" org.eventb.core.label="act3" org.eventb.emf.persistence.emf_id="_NmNQ79cJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.guard name="_NmWa1tcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="i&lt;n" org.eventb.emf.persistence.emf_id="_NmNQ7NcJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.guard name="_NmXB4NcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="n mod i = 0" org.eventb.emf.persistence.emf_id="_NmNQ7dcJEe6A_uB6VBEJ3w"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_NmXB4dcJEe6A_uB6VBEJ3w" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="step22222" org.eventb.emf.persistence.emf_id="_NmNQ9dcJEe6A_uB6VBEJ3w">
+        <org.eventb.core.refinesEvent name="_NmXB4tcJEe6A_uB6VBEJ3w" org.eventb.core.target="step2222"/>
+        <org.eventb.core.action name="_NmXB49cJEe6A_uB6VBEJ3w" org.eventb.core.assignment="i ≔ i + 1" org.eventb.core.generated="false" org.eventb.core.label="act1" org.eventb.emf.persistence.emf_id="_NmNQ9NcJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.guard name="_NmXB5NcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="i&lt;n" org.eventb.emf.persistence.emf_id="_NmNQ8tcJEe6A_uB6VBEJ3w"/>
+        <org.eventb.core.guard name="_NmXB5dcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="n mod i ≠ 0" org.eventb.emf.persistence.emf_id="_NmNQ89cJEe6A_uB6VBEJ3w"/>
+    </org.eventb.core.event>
+    <org.eventb.core.variable name="_NmXo8NcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.identifier="ok" org.eventb.emf.persistence.emf_id="_NmNQ4NcJEe6A_uB6VBEJ3w"/>
+    <org.eventb.core.variable name="_NmXo8dcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.identifier="i" org.eventb.emf.persistence.emf_id="_NmNQ4dcJEe6A_uB6VBEJ3w"/>
+    <org.eventb.core.variable name="_NmXo8tcJEe6A_uB6VBEJ3w" org.eventb.core.generated="false" org.eventb.core.identifier="cu" org.eventb.emf.persistence.emf_id="_NmNQ4tcJEe6A_uB6VBEJ3w"/>
+</org.eventb.core.machineFile>
